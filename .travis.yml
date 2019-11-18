@@ -3,6 +3,7 @@ dist: xenial
 
 arch:
 - ppc64le
+- arm64
 
 services:
 - redis
