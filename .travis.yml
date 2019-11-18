@@ -6,6 +6,10 @@ arch:
 
 services:
 - redis
+- mysql
+- rabbitmq
+- mongodb
+- postgresql
 
 script:
 - ps auxf
