@@ -2,7 +2,7 @@ language: generic
 dist: xenial
 
 arch:
-- arm64
+- ppc64le
 
 services:
 - redis
