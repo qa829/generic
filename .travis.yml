@@ -1,1 +1,13 @@
+language: generic
+dist: xenial
+
+arch:
+- arm64
+- s390x
+
+services:
+- redis
+
+script:
+- ps auxf
 
