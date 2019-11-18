@@ -1,19 +1,1 @@
-language: generic
-dist: xenial
 
-arch:
-- amd64
-
-env:
-- BUILD=1
-- BUILD=2
-- BUILD=3
-- BUILD=4
-- BUILD=5
-- BUILD=6
-
-services:
-- redis
-
-script:
-- ps auxf
