@@ -1,5 +1,10 @@
 language: generic
 
+arch:
+- arm64
+- s390x
+- ppc64le
+
 env:
 - BUILD=1
 - BUILD=2
