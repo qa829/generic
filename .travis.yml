@@ -3,7 +3,7 @@ dist: xenial
 
 arch:
 - ppc64le
-- s390x
+#- s390x
 - arm64
 
 services:
@@ -15,4 +15,6 @@ services:
 
 script:
 - ps auxf
-
+- php -v
+- java -version
+- python -V
