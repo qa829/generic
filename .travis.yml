@@ -15,7 +15,7 @@ services:
 - postgresql
 
 script:
-- ps auxf
+- ps auxfww
 - php -v
 - java -version
 - python -V
