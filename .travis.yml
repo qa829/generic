@@ -18,4 +18,5 @@ script:
 - php -v
 - java -version
 - python -V
+- psql -V
 - postgres -V
